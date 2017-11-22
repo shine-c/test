@@ -16,7 +16,6 @@
     * 支持动态选项创建
     
 ### 3. select2 用法
-
     //select2 引入
     <link type="text/css" rel="stylesheet" href="/css/select2.css">  
     <script type="text/javascript" src="/js/select2.full.min.js"></script>    
@@ -29,9 +28,9 @@
            option value="three">Third</option>
      </select>
     
-    
-    
-    
+
+```javascript 
+
     $("select").select2({
           allowClear: true, //清除选择项
           maximumSelectionLength ：2  //多值选择, 限制选择的数量
@@ -100,6 +99,7 @@
          minimumResultsForSearch: 20 //搜索的结果集条数限制             
                 
     });
+```
     
 ### 4. select2 常用 Events
     
